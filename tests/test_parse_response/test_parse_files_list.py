@@ -4,7 +4,7 @@ import requests
 import responses
 
 from errors.simple_energy_errors import ResposeStatusCodeError
-from parse_data.parse_files_list import ParseFilesList
+from src.parse_data.parse_files_list import ParseFilesList
 from tests.test_datas.html_contents_raw import FILE_LIST_PAGE_HTML, EMPTY_FILE_LIST_PAGE_HTML
 
 

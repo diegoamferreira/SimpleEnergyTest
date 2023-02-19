@@ -1,4 +1,4 @@
-from parse_data.parse_response import ParseResponseSoup
+from src.parse_data.parse_response import ParseResponseSoup
 
 
 class ParseFilesList(ParseResponseSoup):

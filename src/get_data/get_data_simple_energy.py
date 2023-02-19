@@ -8,9 +8,9 @@ import pandas as pd
 from decouple import config
 
 from errors.simple_energy_errors import ClientCodeNotFound
-from extract_file.extract_barcode_file import ExtractBarcodeFile
-from parse_data.parse_csrf_token import ParseCSRFToken
-from parse_data.parse_files_list import ParseFilesList
+from src.extract_file.extract_barcode_file import ExtractBarcodeFile
+from src.parse_data.parse_csrf_token import ParseCSRFToken
+from src.parse_data.parse_files_list import ParseFilesList
 
 # Acessando variaveis de ambiente
 

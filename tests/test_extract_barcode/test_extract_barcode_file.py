@@ -4,7 +4,7 @@ import requests
 import responses
 
 from errors.simple_energy_errors import ResposeStatusCodeError
-from extract_file.extract_barcode_file import ExtractBarcodeFile
+from src.extract_file.extract_barcode_file import ExtractBarcodeFile
 
 
 class TestExtractBarcodeFile(TestCase):

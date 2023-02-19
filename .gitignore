@@ -8,3 +8,6 @@ __pycache__/
 
 # Tests
 .pytest_cache
+
+# Output
+output/

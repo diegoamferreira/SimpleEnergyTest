@@ -1,5 +1,5 @@
 from errors.simple_energy_errors import InputCSRFError
-from parse_data.parse_response import ParseResponseSoup
+from src.parse_data.parse_response import ParseResponseSoup
 
 
 class ParseCSRFToken(ParseResponseSoup):

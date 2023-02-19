@@ -4,7 +4,7 @@ import requests
 import responses
 
 from errors.simple_energy_errors import ResposeStatusCodeError, InputCSRFError
-from parse_data.parse_csrf_token import ParseCSRFToken
+from src.parse_data.parse_csrf_token import ParseCSRFToken
 from tests.test_datas.html_contents_raw import FORM_PAGE_HTML
 
 

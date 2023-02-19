@@ -1,7 +1,6 @@
 import argparse
-from typing import Iterable
 
-from get_data.get_data_simple_energy import GetDataSimpleEnergy
+from src.get_data.get_data_simple_energy import GetDataSimpleEnergy
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-c', '--codigo', nargs='+', required=True, help='Código dos clientes (1+)')
